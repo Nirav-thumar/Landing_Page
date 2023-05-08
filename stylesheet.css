@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Arvo&display=swap');
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing:border-box;
+  --primary-color:#eb5d0c;
+  --secondary-color: black;
+  --third-color:#cfc9ba;
+   
+ }
+
+/* header start here*/
+header{
+       position:sticky;
+       top:0px;
+        width:100%;
+        height:100px;
+        display:flex;
+        flex-diredction:row;
+        background-color:var(--primary-color);   
+        border:2px solid var(--secondary-color); 
+        font-family :'Archivo', sans-serif; 
+      
+      } 
+.logo img{
+       width:80px;
+       height:80px;
+       margin:10px 10px;
+        border-radius:100px;    
+    }
+nav{
+      width:100%;
+      display:flex;
+      flex-direction:column;
+      
+ } 
+.one{
+      width:100%;
+      height:40%;
+      display:flex;
+      flex-direction:row;
+       margin-top:10px;
+      justify-content:space-around;
+      align-items:center;
+      
+}
+.one a {
+  color:white;
+  font-size:15px;
+}
+.one i{
+  font-size:15px;
+  margin-right:10px;
+  color:var(--secondary-color); 
+}
+
+
+
+.two{
+     width:100%;
+      height:60%;
+      display:flex;
+      flex-direction:row;
+      
+      justify-content:space-around;
+      align-items:center;
+     margin-bottom:10px;
+     margin-top:10px;
+}
+a{
+  text-decoration :none;
+  font-size:25px;
+  color:var(--secondry-color);
+ }
+
+
+.two a{
+   width:50px;
+   height:50px;
+   
+  padding:15px 20px;
+  border-radius:10px;
+  margin-bottom:10px;
+ 
+}
+.two a:hover{
+   background-color:black;
+   color:var(--primary-color);
+}
+
+/* header end here*/
+
+/*whatsapp start here*/
+ .whatsapp{
+    position:fixed;
+    bottom:70px;
+    right:20px;
+   
+ } 
+ .whatsapp img{
+    width:80px;
+    height:80px;
+    
+ }
+/*whatsapp end here*/
+
+/*slider star here*/
+.slider img{
+      width:100%;
+      height:450px; 
+}
+
+/*slider end here*/
+
+/* about company start*/
+
+.aboutus{
+      display:flex;
+      justify-content:center;
+      align-items:center;		
+      flex-direction:column;
+      background-color:var(--third-color);   
+      width:100%;
+      padding:50px 0px;
+     
+}
+
+.aboutus p{
+     font-size:18px;
+     width:80%;
+margin-top:10px;
+}
+/* about company end*/
+
+/* products start here */
+ .products{     
+     width:100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;		
+      flex-direction:column;
+      border:2px solid var(--primary-color);
+      background-color:var(--secondary-color);  
+      padding-bottom:16px;
+  }
+
+.product-img{
+   display:flex;
+ flex-direction:column;
+}
+.product-img1,.product-img2{
+ display:flex;
+ flex-direction:row;
+
+}
+.product-img1 img,.product-img2 img{
+  width: 200px;
+ height:200px;
+ margin:10px;
+ border:2px solid var(--primary-color);
+ transition:transform 0.1s ease;
+
+}
+.product-img1 img:hover,.product-img2 img:hover{
+ 
+ transform:scale(1.1);
+ border:4px solid var(--primary-color);
+ box-shadow:0px 0px 2px 2px  var(--third-color); 
+ 
+
+}
+/*products end here */ 
+
+/* videos start here*/
+ .videos{
+      width:100%;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      background-color:var(--third-color);
+      padding:10px 0px;
+      
+       
+ }
+
+.video1,.video2 {
+ border:2px solid var(--primary-color);
+ display:flex;  
+ margin :10px 0px;
+}
+.content{
+ width:300px;
+  height:200px;
+ padding-left:20px;
+ 
+}
+/* videos end here*/
+
+/*contact us start here*/
+.contactus{
+   display:flex;
+   flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:var(--secondary-color);
+    padding-bottom:20px;
+    border:2px solid var(--primary-color); 
+}
+form{
+   
+    border:2px solid var(--primary-color);
+    padding:15px 30px;
+    border-radius:5px; 
+    background-color:white;
+ }
+
+input,textarea{
+      border:none;
+     border:2px solid var(--primary-color);
+     padding:5px;
+     border-radius:5px;
+     
+}
+#submit_btn{
+     padding:10px 20px;
+     color:var(--primary-color);
+     
+     border-radius:10px;
+     border:2px solid var(--primary-color);
+}
+
+/*contact us end here*/
+
+/*address start here*/
+ .company_address{
+     display:flex;
+     width:100%;
+     height:250px;
+     justify-content:center; 
+     background-color:var(--third-color);
+     color:var(--primary-color); 
+     padding:20px; 
+ }
+ .left, .right{
+  width:50%;
+  
+}
+ .left iframe{
+      height:100%;
+      width:90%;
+      margin-left:10%;
+  }
+  .right{
+     
+      padding-left:50px
+  }
+  address a{
+      font-size:18px; 
+       
+}
+.map_locate{
+     font-size:40px;
+     color:red;
+    margin-right:10px;
+   
+}
+  
+/*address end here*/
+
+/*footer start here*/
+ .footer{
+      width:100%;
+      height:50px;
+      background-color:black;
+      color:var(--primary-color);
+      border:2px solid var(--primary-color);
+      font-family :'Arvo', serif;
+}
+
+/*footer end here*/
+
+
+
+/*commom class start*/
+ .heading_class{
+    color:var(--primary-color);
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+/*commom class end */

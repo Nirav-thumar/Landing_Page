@@ -1,0 +1,122 @@
+<!Doctype html>
+<html>
+<head>
+  <title>user form</title>
+  <link rel="icon" href="fav.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+
+fieldset {
+
+display: inline-block;
+
+}
+
+</style>
+       
+	<link rel="stylesheet" href="form.css">
+        
+</head>
+<body>
+
+<!-- header start -->
+       <header>
+            <div class="logo"> <img src="company_logo.png"> </div>
+            <nav>
+                  <div class="one">
+                       <div class="mobile"><i class="fa fa-phone"></i><a href="">(+91) 70411 22532</a></div>
+                       <div class="Email"><i class="fa fa-envelope" aria-hidden="true"></i><a href="">cbindustry55@gmail.com</a></div>
+                        <div class="login"><a href="form.html" target="_blank">Login</a></div>
+                  </div>
+                  
+                  <div class="two">
+                        <div class="Home"><a href="#">Home</a></div> |
+                        <div class="About"><a href="#_about">About</a></div> |
+                        <div class="Product"><a href="#_products">Product</a></div> | 
+                        <div class="Video"><a href="#_video">Videos</a></div>  |
+                        <div class="Contact"><a href="#_contact">Contact Us</a></div> | 
+                        <div class="Address"><a href="#_address">Address</a></div>  
+                  </div>
+            </nav>    
+       </header>
+<!-- header end -->
+
+<!--form start here-->
+
+<center>	
+<form action="get.html" id="form_style" target="www.amzom.com" method="get">
+<fieldset>
+<legend align="center">User Details</legend>
+<br><br>
+<div class="container">
+<label for="name" >Name :</label>         <input type="text"   id="input_style"  id="name"  autocomplete="off" placeholder="Enter a Name" required autofocus maxlength="10"    name="name"> <br><br>
+<label for="mobile">Mobile :</label>     <input type="tel"     id="input_style"   id="mobile" placeholder="Enter a mobile Number" value="8999745658" readonly name="mobile" > <br><br>
+<label for="weight">Weight :</label>     <input type="number"   id="input_style" id="weight" placeholder="Enter a weight"  step="3" name="wieght"> <br><br>
+<label for="email">Email :</label>       <input type="email"   id="input_style"  id="email"  placeholder="Enter a email" required name="email"> <br><br>
+<label for="password">Password :</label> <input type="password" id="input_style" id="password" pattern="[A-Za-z]{3}" name="password" required> <br><br>
+<label for="city">City :</label>         <input list="city_name" id="input_style" id="city"   placeholder="Enter a city" required name="city"> <br><br>
+ <datalist id="city_name">
+  <option value="Surat">
+  <option value="Rajkot">
+  <option value="Jamnagar">
+  <option value="Ahmedabad">
+  <option value="Vdodara">
+  <option value="khambhaliya">
+  <option value="porbandar">
+ </datalist> 
+<label for="country">Country :</label>
+ <select id="country" name="country">
+     <option value="India">India</option>
+     <option value="Australia">Australia</option>
+     <option value="Bangladesh">Bangladesh</option>
+     <option value="Afghanistan">Afghanistan</option>
+     <option value="Dubai" selected>Dubai</option>
+     <option value="Uk">Uk</option>
+ </select> <br><br>
+Geneder :
+         <input type="radio" id="male" name="gender_select" value="Male"> <label for="male">Male </label> 
+      &nbsp;&nbsp;   <input type="radio" id="female"  name="gender_select" value="Female"> <label for="female">Female</label> <br><br> 
+Hobby : <input type="checkbox" name="hobby" id="cricket" checked>&nbsp;&nbsp; Cricket &nbsp;&nbsp;
+        <input type="checkbox" name="hobby" id="computer">&nbsp;&nbsp; Computer       &nbsp;&nbsp;
+        <input type="checkbox" name="hobby" id="book">&nbsp;&nbsp; Book   &nbsp;&nbsp;
+<br><br>
+<label for="birthdate">Birtdate :</label> <input type="date" id="birthdate" name="birthdate" required> <br><br>
+<label for="address" rows="4" cols="50" >Address :</label>    <textarea id="address" name="address" placeholder="Enter a Address" required></textarea> <br><br>
+<label for="file">File : </label><input type="file" id="file" accept="image/*" name="file" multiple required><br><br>
+<input type="submit" class="btn" value="Submit" name="submit" target="www.amazon.com"> 
+<span id="or">OR</span>
+<input type="reset"  class="btn" value="Resest" name="reset">
+
+</fieldset>
+</div>
+</form>
+</center>
+
+<!--form end here-->
+
+<!--Addres start here-->
+    <div class="Company_address" id="_address">
+
+       <div class="left"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d118174.9386296163!2d70.73167989842177!3d22.241337201667523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3959cb4c335e4469%3A0x93acbfa156032503!2sAzesha%20Technolgy!3m2!1d22.241352199999998!2d70.8017203!5e0!3m2!1sen!2sin!4v1667825697843!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>     
+       <div class="right">
+         <address>
+          <h1 class="heading_class"><i class="fa fa-map-marker map_locate"></i>ADDRESS</h1><br>
+          <p>Classic Ind Zone, </p>
+          <p> Opp Gopal Hotel,Maldhari Railway Cross,</p>
+          <p> Rajkot, Gujarat 360002, India</p><br>
+          <p><a href="">Mobile No : (+91) 70411 22532</a> </p>
+          <p><a href="">Email : bindustry55@gmail.com</a></p>
+         </address>
+       </div>
+
+    </div>
+<!--Addres end here-->
+
+<!--footer start here-->
+   <div class="footer"><br>
+      <center><p>Copyright © 2021 Love2Dev. All Rights Reserved</p></center>
+   </div>
+<!--footer end here--> 
+
+</body>
+</html>
