@@ -1,0 +1,3 @@
+not a variable define
+config2
+config3
